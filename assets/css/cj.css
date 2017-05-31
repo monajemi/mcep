@@ -23,15 +23,25 @@
 }
 
 
-.instructor-bordered {
+.instructor-bordered-left {
     padding-left: 24px;
     padding-right: 24px
 }
 
 @media (min-width: 120px) {
-    .instructor-bordered {
+    .instructor-bordered-left {
         border-left: 1px solid;
     }
+
+	.instructor-bordered-right {
+	    padding-left: 24px;
+	    padding-right: 24px
+	}
+
+	@media (min-width: 120px) {
+	    .instructor-bordered-right {
+	        border-right: 1px solid;
+	    }
 
 
 
@@ -485,7 +495,41 @@
     }
 }
 
+.text-right {
+    text-align: right !important
+}
 
+.text-left {
+    text-align: left !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+.text-normal {
+    font-weight: normal !important
+}
+
+.text-bold {
+    font-weight: 600 !important
+}
+
+.text-italic {
+    font-style: italic !important
+}
+
+.text-uppercase {
+    text-transform: uppercase !important
+}
+
+.no-underline {
+    text-decoration: none !important
+}
+
+.no-wrap {
+    white-space: nowrap !important
+}
 
 
 .columns-vertically-centered .column {
@@ -519,4 +563,76 @@
     color: #fff !important
 }
 
+.tile-block {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5
+}
 
+@media (min-width: 768px) {
+    .tile-row {
+        display: table;
+        max-width: 1330px;
+        margin: 0 auto;
+        overflow: hidden
+    }
+}
+
+.tile {
+    padding: 6px 24px
+}
+
+@media (min-width: 768px) {
+    .tile {
+        display: table-cell;
+        vertical-align: top
+    }
+}
+
+@media (min-width: 1004px) {
+    .tile {
+        padding: 24px 36px
+    }
+}
+
+@media (max-width: 768px) {
+    .tile {
+        display: block;
+        float: none;
+        width: 100%
+    }
+}
+
+@media (min-width: 768px) {
+    .tile.one-fourth {
+        float: left;
+        width: 50%
+    }
+}
+
+@media (min-width: 1004px) {
+    .tile.one-fourth {
+        float: none;
+        width: 25%;
+        border-left: 0
+    }
+}
+
+.tile-bordered {
+    padding-top: 24px;
+    padding-bottom: 24px
+}
+
+.tile-bordered:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5
+}
+
+@media (min-width: 768px) {
+    .tile-bordered {
+        border-right: 1px solid transparent
+    }
+
+    .tile-bordered:not(:last-child) {
+        border-right: 1px solid #e5e5e5;
+        border-bottom: 0
+    }
+}

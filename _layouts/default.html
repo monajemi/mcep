@@ -19,82 +19,60 @@
 	
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <!--
-	  {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-		-->  
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-	  
-	  
-	  
-	  
-	  <div class="container">
-		  <div class="columns-vertically-centered centered">
-		  	<div class="column">
-				Instructors:
-			</div>
-		  	<div class="column  instructor-bordered">
-				<div class="instructor">
+    <section class="page-header">   		  
+		  	<div class="tile-row">
+		  	
+				<div class="tile tile-bordered col-1 text-center">
+					<h2>Instructors</h2>
+					<div class="instructor">
 	        		<a href="http://web.stanford.edu/~monajemi/">
 	        			<div class="instructorphoto"><img src="assets/img/Hatef_Monajemi.jpg"></div>
 	        			<div class="text-white">Hatef Monajemi</div>
 	        		</a>
-				</div>
-			
-				<div class="instructor">
+					</div>
+					<br>
+					<div class="instructor">
 					<a href="https://statweb.stanford.edu/~donoho/">
 	       			 <div class="instructorphoto"><img src="assets/img/donoho.jpg"></div>
 	        		 <div class="text-white">David Donoho</div>
-	        	 </a>
-	  	  	 </div>
-		  </div>
+	        		 </a>
+	  	  	 		</div>
+		 	   </div>
 		  
-		  <div class="column">
-		  <div>
-		  <div class="column">
-		  <div>
-		  <div class="column">
-		  <div>
+		  <div class="tile tile-bordered">
+		  
+		      	<h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+		      	<h2 class="project-tagline">Statistics, Stanford University, Fall 2017</h2>
+				<h2 class="project-tagline text-italic"> This course covers state-of-the art practices for doing million-CPU-hour computational experiments in a pain-free and reproducible manner on the cloud. </h2>
+		      <!--
+			  {% if site.github.is_project_page %}
+		        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+		      {% endif %}
+				-->  
+		      	{% if site.show_downloads %}
+		        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+		        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+		      {% endif %}
+		  
+		  
+		  </div>
+		 
 		  
 		  
 		  <!-- TA -->
-		  
-		  	<div class="column">
-				Teaching Assistant:
-			</div>
-		  	<div class="column  instructor-bordered">
+		 
+		  	<div class="tile tile-bordered col-1 text-center">
+				<h2>TA</h2>
 				<div class="instructor">
 	        		<a href="http://web.stanford.edu">
 	        			<div class="instructorphoto"><img src="assets/img/face-1.jpg"></div>
 	        			<div class="text-white">TA</div>
 	        		</a>
 				</div>
-			<!-- 
-				<div class="instructor">
-					<a href="https://statweb.stanford.edu">
-	       			 <div class="instructorphoto"><img src="assets/img/face-1.jpg"></div>
-	        		 <div class="text-white">TA</div>
-	        	 </a>
-	  	  	 </div>
-			-->	
-		  </div>
-		  
-		  
-		  
-		  
-		  
-		  
+			
+				
+		  </div>		  
 	  </div>
-	    </div>
-	  
-	  
 	  
     </section>
 
