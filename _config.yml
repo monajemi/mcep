@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+title: Massive Computational Experiments, Painlessly
+description: Stanford Statistics, Fall 2017 
+show_downloads: false
+google_analytics:
+theme: 
