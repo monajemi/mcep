@@ -1,0 +1,95 @@
+
+.word-logo {
+  display: inline-block;
+  font-size: 1.em;
+  font-weight:600;
+ /*color: #5757af;*/
+  color: black;
+  font-family: "Calibri", "Source Sans Pro", sans-serif; 
+  line-height: 10px;
+  vertical-align: middle;
+}
+
+
+.instructor-logo {
+  display: inline-block;
+  font-size: 18px;
+  font-weight:600;
+ /*color: #5757af;*/
+  color: white;
+  line-height: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.instructor-bordered {
+    padding-left: 24px;
+    padding-right: 24px
+}
+
+@media (min-width: 120px) {
+    .instructor-bordered {
+        border-left: 1px solid;
+    }
+
+
+
+
+
+.instructorphoto img {
+  width: 120px;
+  border-radius: 120px;
+  margin-bottom: 10px;
+}
+.instructor {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px
+}
+
+
+.header-logo-cj {
+    float: left;
+    margin-right: 10px;
+    margin-left: -2px;
+    color: #333;
+    white-space: nowrap;
+    height: 32px;
+    display: inline-block;
+
+}
+
+
+.header-logo-cj span {
+    height: 32px; /* image's height */
+    display:inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+  font-weight:600;
+ /*color: #5757af;*/
+  color: black;
+  font-family: "Calibri", "Source Sans Pro", sans-serif; 
+}
+
+.header-logo-cj:hover {
+    color: #4078c0;
+    text-decoration: none
+}
+
+.lead{
+    font-size: 40px;
+	color:white;
+    font-weight: 400;
+    line-height: 1.4
+}
