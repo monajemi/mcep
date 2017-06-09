@@ -11,10 +11,9 @@ These are notes for Stanford course **Massive Computational Experiments, Painles
 	- Bash Tutorial
 	- Perl Tutorial
     - Git
-1.  Reproducibility 
-	- [Literature](reproducibility-literature)
-	- Containers
-	- CodaLab
+1.  [Readings](readings)
+1.  Containers
+1.  CodaLab
 1.  [ClusterJob (CJ)](http://clusterjob.org)
 	- MATLAB jobs
     - Python jobs
