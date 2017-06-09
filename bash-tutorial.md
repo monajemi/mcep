@@ -23,7 +23,7 @@ reduce the pain of having to do certain task many times.
 #!/bin/bash
 # Write some commands to be executed
 echo "I am bash scripting"
-```bash
+```
 
 ## [](#variables) Variables
 
