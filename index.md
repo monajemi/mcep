@@ -4,18 +4,18 @@ layout: default
 
 These are notes for Stanford course **Massive Computational Experiments, Painlessly (MCEP)**. For questions/concerns/bug reports, please contact [Hatef Monajemi](http://web.stanford.edu/~monajemi/) or [David Donoho](https://profiles.stanford.edu/david-donoho).
 
-# Topics
+# [](#topics)Topics
 
 1.  Basics
+    - Computing Resources at Stanford
 	- Bash Tutorial
 	- Perl Tutorial
     - Git
-	- Computing Resources at Stanford
 1.  Reproducibility 
 	- Literature
 	- Containers
 	- CodaLab
-1.  ClusterJob (CJ)
+1.  [ClusterJob (CJ)](http://clusterjob.org)
 	- MATLAB jobs
     - Python jobs
     - R jobs
