@@ -26,6 +26,8 @@ Here is how a Bash script may look like:
 # File: bashMain.sh
 
 # Write some commands to be executed
+cd ~
+ls -lt 
 echo "I am bash scripting"
 
 ```
