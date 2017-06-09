@@ -19,6 +19,8 @@ Bash scripting is a great way to automate your computational tasks
 and is used regularly by System Admins, Programmers, Data Scientists and many others to 
 reduce the pain of having to do certain task many times.
 
+Here is how a Bash script may look like:
+
 ```bash
 #!/bin/bash
 # File: bashMain.sh
@@ -27,6 +29,12 @@ reduce the pain of having to do certain task many times.
 echo "I am bash scripting"
 
 ```
+
+As you may have noticed, you are already familiar with these commands and perhaps have typed 
+them in your terminal before. A bash script is just a text file that contains these commands
+so you don't have to type them each time. Instead, you just execute all the commands at once by 
+writing `./bashMain.sh` or `bash bashMain.sh` in a terminal.
+
 
 ## [](#variables) Variables
 
