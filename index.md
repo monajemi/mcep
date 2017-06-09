@@ -9,6 +9,7 @@ These are notes for Stanford course **Massive Computational Experiments, Painles
 1.  Basics
 	- Bash Tutorial
 	- Perl Tutorial
+    - Git
 	- Computing Resources at Stanford
 1.  Reproducibility 
 	- Literature
