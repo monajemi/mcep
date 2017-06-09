@@ -11,7 +11,7 @@ using frequently in this class.
 - [Variables](#variable) 
 - [If statement](#if-statement)
 - [For loop](#for-loop)
-- [Changing file contents] (#change-file-content)
+- [Changing file contents](#change-file-content)
 - ...
 
 ## [](#bash) Bash
