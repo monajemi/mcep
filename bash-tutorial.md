@@ -33,7 +33,7 @@ echo "I am bash scripting"
 ```
 
 As you may have noticed, you are already familiar with these commands and perhaps have typed 
-them in your terminal before. A bash script is just a text file that contains these commands
+them in your terminal before. A bash script is just a text file (`bashMain.sh` in this example) that contains these commands
 so you don't have to type them each time. Instead, you just execute all the commands at once by 
 writing `./bashMain.sh` or `bash bashMain.sh` in a terminal.
 
