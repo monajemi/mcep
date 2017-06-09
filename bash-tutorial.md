@@ -20,8 +20,8 @@ and is used regularly by System Admins, Programmers, Data Scientists and many ot
 reduce the pain of having to do certain task many times.
 
 ```bash
-\#!/bin/bash
-\# Write some commands to be executed
+#!/bin/bash
+# Write some commands to be executed
 echo "I am bash scripting"
 ```bash
 
