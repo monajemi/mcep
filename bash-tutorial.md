@@ -21,8 +21,11 @@ reduce the pain of having to do certain task many times.
 
 ```bash
 #!/bin/bash
+# File: bashMain.sh
+
 # Write some commands to be executed
 echo "I am bash scripting"
+
 ```
 
 ## [](#variables) Variables
