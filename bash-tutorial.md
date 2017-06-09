@@ -11,8 +11,7 @@ using frequently in this class.
 - [Variables](#variable) 
 - [If statement](#if-statement)
 - [For loop](#for-loop)
-- 
-
+- ...
 
 ## [](#bash) Bash
 
