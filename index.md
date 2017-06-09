@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: titlepage
 ---
 
 These are notes for Stanford course **Massive Computational Experiments, Painlessly (MCEP)**. For questions/concerns/bug reports, please contact [Hatef Monajemi](http://web.stanford.edu/~monajemi/) or [David Donoho](https://profiles.stanford.edu/david-donoho).
@@ -12,7 +12,7 @@ These are notes for Stanford course **Massive Computational Experiments, Painles
 	- Perl Tutorial
     - Git
 1.  Reproducibility 
-	- [Literature](reproducibility_literature)
+	- [Literature](reproducibility-literature)
 	- Containers
 	- CodaLab
 1.  [ClusterJob (CJ)](http://clusterjob.org)
