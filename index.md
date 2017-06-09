@@ -12,7 +12,7 @@ These are notes for Stanford course **Massive Computational Experiments, Painles
 	- Perl Tutorial
     - Git
 1.  Reproducibility 
-	- Literature
+	- [Literature](reproducibility_literature.md)
 	- Containers
 	- CodaLab
 1.  [ClusterJob (CJ)](http://clusterjob.org)
