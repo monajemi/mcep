@@ -11,6 +11,7 @@ using frequently in this class.
 - [Variables](#variable) 
 - [If statement](#if-statement)
 - [For loop](#for-loop)
+- [Changing file contents] (#change-file-content)
 - ...
 
 ## [](#bash) Bash
@@ -44,6 +45,7 @@ writing `./bashMain.sh` or `bash bashMain.sh` in a terminal.
 
 ## [](#for-loop) For loop
 
+## [](#change-file-content) Changing file content
 
 
 
