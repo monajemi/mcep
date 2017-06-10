@@ -4,6 +4,9 @@ layout: titlepage
 
 These are notes for Stanford course **Massive Computational Experiments, Painlessly (MCEP)**. For questions/concerns/bug reports, please contact [Hatef Monajemi](http://web.stanford.edu/~monajemi/) or [David Donoho](https://profiles.stanford.edu/david-donoho).
 
+# [](#hw)Assignments
+TBA
+
 # [](#topics)Topics
 
 1.  Basics
@@ -29,5 +32,4 @@ These are notes for Stanford course **Massive Computational Experiments, Painles
 1.  CJ for Deep Learning
     - PyTorch
 
-# Assignments
 
